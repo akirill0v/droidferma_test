@@ -1,0 +1,11 @@
+language: ruby
+rvm: 2
+
+install:
+  - docker pull ovation/droidferma
+
+database:
+  - echo "skip"
+
+script:
+  - echo "PULLED!!!!! Yeah!!!"
